@@ -17,3 +17,7 @@ Dies ist eine Ruby on Rails Blog-Website, bei der Benutzer Blogbeiträge einsehe
 ## Softwaretests
 
 Für die Softwaretests wurde RSpec und FactoryBot installiert. Um alle Funktionen testen zu können, muss der Login Test implementiert werden. Der Login ist erforderlich, um die Funktionen testen zu können, die nur für angemeldete Benutzer verfügbar sind. Bei den Softewaretests habe ich aktuell noch Schwierigkeiten und habe diese nur mäßig abgedeckt. Das Problem ist akutell wie oben erwähnt, das ich das Log in Verfahren noch nicht implementieren konnte um die darauf folgenden Features zu testen.
+
+## Zugangsdaten:
+
+Das erstellen von Accounts funktioniert und ist nicht hard-coded, also könnt ihr euch einfach selber einen Account erstellen.
