@@ -20,12 +20,12 @@
 
   <div>
     <%= form.label :text, style: "display: block" %>
-    <%= form.text_area :text, class:"form-control", rows:"3" %>
+    <%= form.rich_text_area :text, class:"form-control", rows:"3" %>
   </div>
 
   <div>
-    <%= form.label :user, style: "display: block" %>
-    <%= form.text_field :user, class:"form-control-plaintext", value: current_user.email%>
+    <%= form.label "Author", style: "display: block" %>
+    <%= form.text_field :user, class:"form-control-plaintext", value: current_user.email, readonly: true %>
   </div>
   </br>
 
