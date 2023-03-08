@@ -25,9 +25,9 @@
 
   <div>
     <%= form.label :user, style: "display: block" %>
-    <%= form.text_field :user %>
+    <%= form.text_field :user, class:"form-control-plaintext", value: current_user.email%>
   </div>
-
+  </br>
 
   <div>
     <%= form.submit%>
